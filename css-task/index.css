@@ -1,0 +1,49 @@
+.parent1
+{
+    height: auto;
+    display: grid;
+    padding: 5vh;
+    color: blue;
+    gap: 5vh;
+    background-color: rgb(255, 196, 0);
+}
+.child1
+{
+    background-color: blueviolet;
+    display: grid;
+}
+
+.child2
+{
+    background-color: red;
+    display: grid;
+    column-gap: 5vh;
+    grid-template-columns: auto auto auto;
+}
+div{
+    min-height: auto;
+    min-width: auto;
+    padding: 5vh;
+}
+.child221,.child222
+{
+    background-color: black;
+    padding: 5vh;
+    margin: 5vh;
+}
+.child21,.child22,.child23
+{
+    background-color: yellow;
+    
+}
+.child3
+{
+    padding: 0vh 0px 0vh 0px;
+    display: grid;
+    column-gap: 5vh;
+    grid-template-columns: auto auto;
+   
+}
+.child31,.child32{
+    background-color: blueviolet;
+}
